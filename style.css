@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.2em;
+}
+
+.text {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.top-section {
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image-section {
+    margin-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 1051px;
+    height: auto;
+}
+
+.trivia-section {
+    padding-left: 10px;
+    line-height: 2;
+    box-sizing: border-box;
+}
+
+ol {
+    /* padding: 20px; */
+    position: relative;
+    left: -20px;
+}
