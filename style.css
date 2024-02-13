@@ -6,7 +6,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-h1, h2 {
+h1 {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     text-underline-offset: 0.2em;
@@ -36,13 +36,44 @@ img {
 }
 
 .trivia-section {
-    padding-left: 10px;
+    padding-left: 0px;
     line-height: 2;
     box-sizing: border-box;
 }
 
 ol {
-    /* padding: 20px; */
-    position: relative;
-    left: -20px;
+    padding: 5px;
+    list-style-position: inside;
+}
+
+/* For screens up to 500px */
+@media screen and (max-width: 500px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* For screens between 501px and 768px */
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* For screens between 769px and 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* For screens larger than 1024px */
+@media screen and (min-width: 1025px) {
+    img {
+        width: 80%;
+        height: auto;
+    }
 }
